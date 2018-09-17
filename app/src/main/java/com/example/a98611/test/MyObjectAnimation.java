@@ -19,10 +19,4 @@ public class MyObjectAnimation extends Activity {
         animator.setRepeatMode(ObjectAnimator.REVERSE);
         animator.start();
     }
-
-
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-    }
 }

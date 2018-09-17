@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SpliashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,13 +29,14 @@
         <activity android:name=".MyObjectAnimation" />
         <activity android:name=".LoadMoreActivity" />
 
-        <service android:name=".service.MyService" >
+        <service android:name=".service.MyService">
             <intent-filter>
-                <action android:name="com.cn"/>
+                <action android:name="com.cn" />
             </intent-filter>
         </service>
         <service android:name=".service.RockService" />
 
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>
