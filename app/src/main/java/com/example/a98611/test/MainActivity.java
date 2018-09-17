@@ -37,7 +37,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-//import com.example.a98611.test.service.IService;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -60,6 +59,14 @@ public class MainActivity extends AppCompatActivity {
         tv_density = (TextView) findViewById(R.id.tv_density);
         et_input = (EditText) findViewById(R.id.et_input);
         tv_density.setText("dp = px/设备密度\n" + "该设备密度是：" + density);
+
+        tv_density.post(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        });
+
         showSize();
 
     }
