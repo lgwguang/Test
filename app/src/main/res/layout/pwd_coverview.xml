@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_transPwd1"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/empty_left" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd1_done"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/pwd_left"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd2"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/empty_icon1" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd2_done"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/new_pwd_icon1"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd3"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/empty_icon1" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd3_done"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/new_pwd_icon1"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd4"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/empty_icon1" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd4_done"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/new_pwd_icon1"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd5"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/empty_icon1" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd5_done"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/new_pwd_icon1"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd6"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/empty_right" />
+
+    <ImageView
+        android:id="@+id/iv_transPwd6_done"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/pwd_right"
+        android:visibility="gone" />
+</LinearLayout>
