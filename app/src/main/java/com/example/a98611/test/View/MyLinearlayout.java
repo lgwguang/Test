@@ -37,7 +37,6 @@ public class MyLinearlayout extends LinearLayout {
         if(eventX < width){
             event.setLocation(width/2,event.getY());
             getChildAt(0).dispatchTouchEvent(event);
-            return true;
         }else if(eventX>width && eventX<2*width){
 //            event.setLocation(width/2,event.getY());
 //            getChildAt(1).dispatchTouchEvent(event);
@@ -51,13 +50,9 @@ public class MyLinearlayout extends LinearLayout {
                 event.setLocation(width/2,event.getY());
                 getChildAt(1).dispatchTouchEvent(event);
             }
-
-
-            return true;
         }else if(eventX > 2*width){
             event.setLocation(width,event.getY());
             getChildAt(2).dispatchTouchEvent(event);
-            return true;
         }
         return true;
     }
