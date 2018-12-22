@@ -5,6 +5,10 @@ import android.content.Context;
  *这是测试类
  *测试冲突代码
  *解决
+ *作者
+ *时间
+ *邮箱
+ *名称
  */
 public class Http {
     TransactionCallback successCallback;
