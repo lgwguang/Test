@@ -1,7 +1,10 @@
 package com.example.a98611.test;
 
 import android.content.Context;
-
+//作者
+//时间
+//名字
+//用途
 public class Http {
     TransactionCallback successCallback;
     Context context;
