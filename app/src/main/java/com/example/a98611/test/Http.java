@@ -2,14 +2,16 @@ package com.example.a98611.test;
 
 import android.content.Context;
 /**
- *这是测试类
- *测试冲突代码
- *解决
- *作者
- *时间
- *邮箱
- *名称
- */
+
+* 类的描述
+
+* @author Administrator
+
+* @Time 2012-11-2014:49:01
+
+*
+
+*/
 public class Http {
     TransactionCallback successCallback;
     Context mContext;
