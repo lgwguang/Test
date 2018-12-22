@@ -2,6 +2,18 @@ package com.example.a98611.test;
 
 import android.content.Context;
 /**
+
+* 类的描述
+
+* @author Administrator
+
+* @Time 2012-11-2014:49:01
+
+*
+
+*/
+
+/**
   * private String id;
 
   * private String senderName;//发送人姓名
