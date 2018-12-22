@@ -3,8 +3,9 @@ package com.example.a98611.test;
 import android.content.Context;
 /**
  *作者
- *作者
- *作者
+ *时间
+ *邮箱
+ *名称
  */
 public class Http {
     TransactionCallback successCallback;
