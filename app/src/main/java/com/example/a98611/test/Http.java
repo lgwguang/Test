@@ -2,20 +2,20 @@ package com.example.a98611.test;
 
 import android.content.Context;
 /**
- *作者
- *作者
- *作者
+ *这是测试类
+ *测试冲突代码
+ *解决
  */
 public class Http {
     TransactionCallback successCallback;
-    Context context;
+    Context mContext;
 
     public Http(){
         function();
     }
 
     public Http(Context context,TransactionCallback successCallback){
-        this.context = context;
+        this.mContext = context;
         this.successCallback = successCallback;
         function();
     }
